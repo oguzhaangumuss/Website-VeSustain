@@ -47,7 +47,7 @@ export default function Problem() {
             <div className="absolute inset-0 grid grid-cols-2">
               <div className="relative">
                 <Image
-                  src="/polluted-earth.svg"
+                  src="/polluted-earth.jpg"
                   alt="Polluted Earth"
                   fill
                   className="object-cover"
@@ -58,7 +58,7 @@ export default function Problem() {
               </div>
               <div className="relative">
                 <Image
-                  src="/clean-earth.svg"
+                  src="/clean-earth.jpg"
                   alt="Clean Earth"
                   fill
                   className="object-cover"
