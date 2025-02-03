@@ -1,74 +1,83 @@
-Website Structure (Single Page, 6 Cards)
-Design Tips: Clean layout, sustainability-themed colors (greens/blues), icons for visual appeal, mobile-friendly.
+Hero Component (Başlangıç Bölümü)
 
-1. Hero Section (Header)
-   Title: Sustainable Recycling & Waste Management Platform
-   Subtitle: Empowering Eco-Friendly Actions with Blockchain & Rewards
-   Key Elements:
+Background: Çevreci bir tema ile uyumlu, doğa + blockchain hissiyatı veren bir görsel/video kullanılabilir.
+Başlık (Headline):
+• “Empowering a Greener Future with Blockchain & Recycling.”
+• “Turn Waste into Rewards. Recycle & Earn.”
+CTA (Call-to-Action):
+• “Get Started” butonu eklenmeli. Kullanıcıları bir onboarding sürecine yönlendirebiliriz.
 
-Short tagline: "Recycle. Earn. Protect."
+♻️ Our Mission Component
 
-Call-to-action button: "Learn How It Works"
+    “We revolutionize waste management by integrating blockchain and NFTs, ensuring transparency and rewarding sustainability.”
 
-Optional: Subtle animation (e.g., rotating Earth icon).
+🔍 How It Works Component
+• Gird yapıda yan yana görseller olacak.
 
-2. The Problem
-   Title: Why Waste Management Matters
-   Content:
+1 register to the system
+2 select the waste you want to recycle
+3 confirm your recycling through the system
+4 collect rewards & repeat.
+•
 
-Improper disposal of plastics, glass, e-waste, and pharmaceuticals harms ecosystems.
+• Identify Materials: Scan or upload images to detect recyclable materials.
+• Verify Your Recycle: Submit proof and get verified through blockchain transparency.
+• Track & Earn: Monitor your impact and earn tokens.
+• Redeem & Enjoy: Use rewards for eco-friendly perks.
 
-Lack of awareness leads to environmental degradation and economic losses.
+🚀 Why VeSustain? Component
+• grid/tab yapısı.
+• Her başlığa mini açıklamalar:
+• Effortless Recycling: No complex processes. Just scan & recycle.
+• Transparency & Traceability: Your efforts are verifiable on the blockchain.
+• Sustainable Rewards: Earn tokens & contribute to the green economy.
 
-Hazardous materials require urgent action.
-Visual: Icon of a polluted Earth vs. a clean Earth.
+🔗 VeChain & Green Future Component
+• “Revolutionizing Recycling with Blockchain Transparency.”
+robot-video.mp4
 
-3. The Solution
-   Title: How We Make Recycling Rewarding
-   Content (Bullet Points):
+Empowering Recycling with VeChain Blockchain Technology
+VeChain’s blockchain technology revolutionizes recycling by ensuring transparency and trust. It enables users to track their recycling efforts, earn rewards, and contribute to a sustainable future. Our platform leverages this technology to create a seamless and rewarding recycling experience.
 
-📱 Mobile App: Upload waste photos, categorize (plastic, glass, etc.), and earn VeBetter tokens upon approval.
+Track your recycling efforts with blockchain transparency.
+Earn rewards for sustainable actions.
+Contribute to a greener planet with innovative technology.
 
-✅ Validator System: Users review others’ submissions for extra rewards.
+1. hero component
+   background resim eklenecek.
 
-⚠️ Hazardous Waste: Special categories for e-waste, batteries, and medications.
+2. Our Mission component
+   Tomorrow
+   Recycle & Earn is dedicated to transforming waste management through innovative technology. Our mission is to create a sustainable future by promoting recycling and rewarding eco-friendly behaviors. We believe in the power of community engagement and transparency to drive change. By integrating NFTs into our platform, we not only incentivize recycling but also raise awareness about waste mismanagement. Join us in our journey to empower individuals and businesses to take action for a greener planet. Together, we can make a significant impact on our environment and foster a culture of sustainability.
 
-🌱 NFT Community: Join NFT VeSustain to engage with eco-conscious members.
-Visual: App interface mockup or token/NFT icons.
+3. "How It Works component
+   4 adet kutucuk ıcınde olacak.
+   Identify Materials
+   Either Use the app to upload image or video nor identify recyclable materials.
+   Verify Your Recycle
+   Use audit mechanism to verify your recycle journey.
+   Track & Earn
+   Track your waste and earn rewards.
+   Redeem & Enjoy
+   Redeem rewards for discounts, donations, or other benefits."
 
-4. Target Audience
-   Title: Who Benefits from This Platform?
-   Content:
+4.Why VeSustain? component
+4.1 Effortless Recycling
+Simplify your recycling process with our intuitive platform and mobile app.
+4.2 Transparency and Traceability
+Track your recycling journey with blockchain technology, ensuring transparency and accountability.
+4.3 Sustainable Rewards
+Earn valuable rewards for your responsible actions.
 
-Environmentally conscious individuals.
+5.  Vechain & Green Future component
 
-Municipalities seeking efficient waste solutions.
+Empowering Recycling with VeChain Blockchain Technology
+VeChain’s blockchain technology revolutionizes recycling by ensuring transparency and trust. It enables users to track their recycling efforts, earn rewards, and contribute to a sustainable future. Our platform leverages this technology to create a seamless and rewarding recycling experience.
+Track your recycling efforts with blockchain transparency.
+Earn rewards for sustainable actions.
+Contribute to a greener planet with innovative technology.
 
-Eco-friendly businesses reducing their footprint.
-Visual: Icons of a person, city building, and business.
-
-5. Alignment with VeChain ESG Goals
-   Title: Building a Sustainable Future with VeChain
-   Content:
-
-🌍 Environmental: Increases recycling rates and reduces pollution.
-
-👥 Social: Educates communities on sustainability.
-
-🔍 Transparency: VeChain’s blockchain tracks rewards and processes.
-Visual: VeChain logo + ESG badge.
-
-6. Team & Contact
-   Title: Meet the Team
-   Content:
-
-Yavuzhan Gümüş: NFT project lead, sustainability-focused manager.
-
-Team: Blockchain developers, UX/UI designers, environmental engineers.
-Contact:
-
-📧 Email: vesustain@gmail.com
-
-𝕏 Twitter: @Vesustain
-
-Note: Add GitHub link once ready.
+6 Footer component
+© 2025 VeSustain. Creating a Sustainable Future Together.
+twitter icon
+mail icon
