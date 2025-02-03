@@ -5,18 +5,24 @@ import Image from 'next/image';
 export default function WhyVeSustain() {
   const features = [
     {
-      title: "Effortless Recycling",
-      description: "Simplify your recycling process with our intuitive platform and mobile app.",
+      title: "Effortless Recycling, Maximum Impact",
+      description: "Turn waste into rewards with our user-friendly app. Snap a photo, sort your recyclables, and let technology handle the rest. No more guesswork—just seamless sustainability.",
+      steps: [
+        "Sort your waste and take a picture",
+        "Upload the photo and select the waste type",
+        "Earn VeBetter tokens when your submission is approved",
+        "Build your Zero-Waste Collection with NFTs earned"
+      ],
       image: "/images/why-vesustain/effortless.jpg"
     },
     {
-      title: "Transparency and Traceability",
-      description: "Track your recycling journey with blockchain technology, ensuring transparency and accountability.",
+      title: "Trust Built on Blockchain",
+      description: "Every recycling action is securely recorded on VeChain's blockchain. Track your impact in real-time, from the moment you recycle to the token you earn. Transparency you can see, trust you can feel.",
       image: "/images/why-vesustain/transparency.jpg"
     },
     {
-      title: "Sustainable Rewards",
-      description: "Earn valuable rewards for your responsible actions.",
+      title: "Rewards That Keep Giving",
+      description: "Earn VeBetter tokens for every contribution, redeemable for exclusive discounts, donations, or NFTs. The more you recycle, the more you unlock—for your wallet and the planet.",
       image: "/images/why-vesustain/rewards.jpg"
     }
   ];
@@ -32,14 +38,14 @@ export default function WhyVeSustain() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-            Why VeSustain?
+            The Future of Recycling is Here
           </h2>
           <p className="mt-4 text-xl text-gray-600">
-            Innovative solutions for a sustainable future
+            Earn as You Save the Planet
           </p>
         </motion.div>
 
-        <div className="space-y-12">
+        <div className="space-y-16">
           {features.map((feature, index) => (
             <motion.div
               key={feature.title}
@@ -49,18 +55,34 @@ export default function WhyVeSustain() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className={`flex flex-col ${
                 index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-              } gap-8 items-center`}
+              } gap-12 items-center`}
             >
               {/* Text Content */}
-              <div className="flex-1 space-y-4">
-                <div className="flex items-center gap-3">
+              <div className="flex-1 space-y-6">
+                <div className="space-y-4">
                   <h3 className="text-2xl font-bold text-gray-900">
                     {feature.title}
                   </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    {feature.description}
+                  </p>
                 </div>
-                <p className="text-lg text-gray-600">
-                  {feature.description}
-                </p>
+
+                {/* Steps - Only for first feature */}
+                {feature.steps && (
+                  <div className="space-y-3">
+                    {feature.steps.map((step, stepIndex) => (
+                      <div key={stepIndex} className="flex items-start gap-3">
+                        <div className="h-6 w-6 rounded-full bg-primary-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <span className="text-sm font-semibold text-primary-600">
+                            {stepIndex + 1}
+                          </span>
+                        </div>
+                        <p className="text-gray-700">{step}</p>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
 
               {/* Feature Image */}
