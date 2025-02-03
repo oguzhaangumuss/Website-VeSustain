@@ -50,7 +50,7 @@ export default function VechainFuture() {
             </div>
             
             <p className="text-lg text-gray-600 leading-relaxed">
-              <span className="text-black font-bold">VeChain's</span> blockchain technology revolutionizes recycling by ensuring transparency and trust. 
+              <span className="text-black font-bold">VeChain&apos;s</span> blockchain technology revolutionizes recycling by ensuring transparency and trust. 
               Our platform leverages this technology to create a seamless and rewarding recycling experience.
             </p>
 
