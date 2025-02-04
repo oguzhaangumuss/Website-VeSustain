@@ -15,7 +15,6 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Hero section'ın yüksekliğini geçince (100vh) background'ı değiştir
       setIsScrolled(window.scrollY > window.innerHeight);
     };
 
@@ -28,18 +27,19 @@ export default function Header() {
       isScrolled ? 'bg-white/90 backdrop-blur-sm shadow-sm' : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-6">
+        <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="relative w-8 h-8">
+            <Link href="/" className="flex items-center space-x-3">
+              <div className="relative w-[80px] h-[45px] sm:w-[100px] sm:h-[55px]">
                 <Image 
-                  src="/logo.png" 
+                  src="/images/app/logo.png" 
                   alt="VeSustain Logo" 
                   fill
                   className="object-contain"
+                  priority
                 />
               </div>
-              <span className={`text-xl font-bold ${
+              <span className={`text-xl sm:text-2xl font-bold ${
                 isScrolled ? 'text-gray-900' : 'text-white'
               }`}>
                 VeSustain
