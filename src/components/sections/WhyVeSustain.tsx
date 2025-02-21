@@ -6,23 +6,23 @@ export default function WhyVeSustain() {
   const features = [
     {
       title: "Effortless Recycling, Maximum Impact",
-      description: "Turn waste into rewards with our user-friendly app. Snap a photo, sort your recyclables, and let technology handle the rest. No more guesswork—just seamless sustainability.",
+      description: "Turn waste into rewards with our user-friendly app. Snap a video of your recycling activity, sort your recyclables, and let technology handle the rest. No more guesswork—just seamless sustainability.",
       steps: [
-        "Sort your waste and take a picture",
-        "Upload the photo and select the waste type",
-        "Earn VeBetter tokens when your submission is approved",
-        "Build your Zero-Waste Collection with NFTs earned"
+        "Select your recyclable material type",
+        "Record a video of your recycling activity",
+        "Wait for location verification and auditor approval",
+        "Earn VeBetter tokens upon successful verification"
       ],
       image: "/images/why-vesustain/effortless.jpg"
     },
     {
       title: "Trust Built on Blockchain",
-      description: "Every recycling action is securely recorded on VeChain's blockchain. Track your impact in real-time, from the moment you recycle to the token you earn. Transparency you can see, trust you can feel.",
+      description: "Every verified recycling action is securely recorded on VeChain's blockchain. Track your impact in real-time, from submission to verification to reward. Complete transparency you can trust.",
       image: "/images/why-vesustain/transparency.jpg"
     },
     {
       title: "Rewards That Keep Giving",
-      description: "Earn VeBetter tokens for every contribution, redeemable for exclusive discounts, donations, or NFTs. The more you recycle, the more you unlock—for your wallet and the planet.",
+      description: "Earn VeBetter tokens for every verified contribution, redeemable for exclusive discounts or donations. The more you recycle and verify, the more you unlock—for your wallet and the planet.",
       image: "/images/why-vesustain/rewards.jpg"
     }
   ];

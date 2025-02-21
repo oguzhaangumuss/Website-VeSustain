@@ -47,9 +47,14 @@ export default function Hero() {
             Turn Waste into Rewards. Recycle & Earn.
           </p>
 
-          <button className="bg-transparent border border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-primary-600 transition-colors shadow-lg hover:shadow-xl hover:shadow-primary-500/20">
+          <a 
+            href="https://app-vesustain.vercel.app" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="inline-block bg-transparent border border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-primary-600 transition-colors shadow-lg hover:shadow-xl hover:shadow-primary-500/20"
+          >
             Get Started
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>

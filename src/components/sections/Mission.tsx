@@ -37,7 +37,7 @@ export default function Mission() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              We&apos;re revolutionizing recycling by combining blockchain technology with everyday sustainability. Our platform makes it easy to recycle, earn rewards, and make a real impact on the environment.
+              We&apos;re revolutionizing recycling through blockchain-verified video submissions. Our platform makes it easy to record your recycling activities, get verified by auditors, and earn rewards while making a real impact on the environment.
             </motion.p>
 
             <motion.div

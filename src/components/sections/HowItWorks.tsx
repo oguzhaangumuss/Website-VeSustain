@@ -6,23 +6,23 @@ export default function HowItWorks() {
   const steps = [
     {
       image: "/images/how-it-works/new/identify.jpg",
-      title: "Identify Materials",
-      description: "Either Use the app to upload image or video nor identify recyclable materials."
+      title: "Select Material",
+      description: "Choose the type of recyclable material you want to process."
     },
     {
       image: "/images/how-it-works/new/verify.jpg",
-      title: "Verify Your Recycle",
-      description: "Use audit mechanism to verify your recycle journey."
+      title: "Record Video",
+      description: "Record a short video showing your recycling activity."
     },
     {
       image: "/images/how-it-works/new/track.jpg",
-      title: "Track & Earn",
-      description: "Track your waste and earn rewards."
+      title: "Location Analysis",
+      description: "Our system analyzes your location to ensure proper recycling practices."
     },
     {
       image: "/images/how-it-works/new/enjoy.jpg",
-      title: "Redeem & Enjoy",
-      description: "Redeem rewards for discounts, donations, or other benefits."
+      title: "Get Verified & Earn",
+      description: "Auditors verify your submission and you earn rewards upon approval."
     }
   ];
 
