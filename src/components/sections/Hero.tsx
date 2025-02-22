@@ -53,7 +53,7 @@ export default function Hero() {
             rel="noopener noreferrer" 
             className="inline-block bg-transparent border border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-primary-600 transition-colors shadow-lg hover:shadow-xl hover:shadow-primary-500/20"
           >
-            Get Started
+            Go to App
           </a>
         </motion.div>
       </div>
